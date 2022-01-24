@@ -6,9 +6,6 @@ const sendgridTransport = require('nodemailer-sendgrid-transport')
 const crypto = require('crypto')
 
 const transporter = nodemailer.createTransport(sendgridTransport({
-  auth:{
-      api_key:"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"
-  }
 }))
 
 const registerUser = asyncHandler(async(req,res)=>{
