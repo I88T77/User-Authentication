@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&family=Pacifico&display=swap');
+.blogimage{
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.2) 0px 4px 6px -2px;
+    position: relative;
+}
+.blogimage2{
+    margin-bottom: -4px;
+    opacity: 0.8;
+}
+.blogwrite{
+    font-family: 'Pacifico',sans-serif;
+    color: rgb(100, 11, 216);
+    font-size: 40px;
+    position:absolute;
+    top: 4%;
+    margin-left: 40px;
+}
+.paragraph{
+    position:absolute;
+    top: 25%;
+    margin-left: 40px;
+    color: rgb(81, 154, 167);
+    font-size: larger;
+    font-family: 'Josefin Sans',sans-serif ;
+    line-height:1.5em;
+}
+.button{
+    /* border: 2px solid black; */
+    width: 8%;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 9px;
+    background-color: rgb(100, 11, 216);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 4px 4px 6px -2px;
+}
